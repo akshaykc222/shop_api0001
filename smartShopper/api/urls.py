@@ -9,4 +9,6 @@ urlpatterns = [
     path('favourite/', FavouriteView.as_view()),
     path('login/', ObtainAuthToken.as_view()),
     path('register/', RegisterView.as_view()),
+    path('cartItems/', CartView.as_view()),
+    path('order/', CartView.as_view()),
 ]
